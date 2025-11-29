@@ -37,3 +37,5 @@ Karena menggunakan **Laravel Valet**, berikut langkah-langkahnya:
     ```
     [http://nama-folder-project.test](http://nama-folder-project.test)
     ```
+
+    live preview bisa dilihat di https://responsi.athafa.my.id/
