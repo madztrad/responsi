@@ -37,7 +37,7 @@ Karena menggunakan **Laravel Valet**, berikut langkah-langkahnya:
     ```
     [http://nama-folder-project.test](http://nama-folder-project.test)
     ```
-
+     ![2025-11-29 15-35-49](https://github.com/user-attachments/assets/d8cbfe2d-afc5-4c69-91f9-556bd56c4cd7)
     live preview bisa dilihat di https://responsi.athafa.my.id/
-    ![2025-11-29 15-35-49](https://github.com/user-attachments/assets/d8cbfe2d-afc5-4c69-91f9-556bd56c4cd7)
+   
 
