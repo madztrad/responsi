@@ -3,33 +3,37 @@
 # shift awal : C
 # shift akhir : B
 
-# Pokemon Training WEB  
-Ini adalah simulasi web sederhana berbasis PHP untuk melatih pokeom kadabra. untuk simulasi ini Trainer dapat melakukan training stat seperti: meditasi, menyerang, dan teleportasi. setelah trainer melatih pokemon data pelatihan disimpan di riwayat perubahan.
+# Penjelasan
+
+Ini adalah simulasi web sederhana untuk melatih Pokémon, yaitu **Pidgeot**. Pada simulasi ini user bisa melatih stat (Terbang, Bertarung, Bertahan), memantau perubahan status secara realtime, serta melihat riwayat dari latihan yang telah dilakukan.
+
+Simulasi web ini menggunakan **PHP Native** dengan konsep **OOP** (Abstraction, Encapsulation, Inheritance, Polymorphism). Data disimpan sementara menggunakan **Session**.
+
+**Terdapat 5 file utama:**
+
+1.  **Pokemon.php**: Berisi *Abstract Class* `PokemonDasar` dan *Class Turunan* `Pidgeot` yang memuat logika OOP dan perhitungan stat.
+2.  **index.php**: Halaman dashboard utama untuk melihat status visual Pidgeot saat ini.
+3.  **latihan.php**: Halaman untuk memilih program latihan dan memproses logika peningkatan stat (Level, HP, Attack, dll).
+4.  **riwayat.php**: Menampilkan tabel log aktivitas latihan dan fitur reset data.
+5.  **style.css**: Mengatur tampilan antarmuka (UI) web termasuk fitur *Dark Mode* (Mode Dewa) saat level > 100.
 
 ---
 
-## PENJELASAN
-Aplikasi ini memungkinkan pengguna untuk:
+# Cara Menjalankan Program
 
-- Melihat detail Pokémon (gambar, tipe, dan stat dasar)
-- Melakukan training untuk meningkatkan stat Pokémon
-- Menyimpan semua perubahan stat ke dalam *history*
-- Melihat riwayat yang tersimpan dalam bentuk tabel interaktif
+Karena menggunakan **Laravel Valet**, berikut langkah-langkahnya:
 
-Struktur utama aplikasi:
-- `index.php` — Menampilkan kartu Pokémon (nama, gambar, stat), Tombol Mulai Latihan!, Tombol Lihat Riwaya. 
-- `Train.php` — Mengolah logika training: Menambah stat Pokémon lalu Mengirim hasil latihan ke history.
-- `classes.php` — class Pokemon & manajemen history  
-- `history.php` — menampilkan riwayat perubahan stat  
-- `style.css` — gaya tampilan aplikasi  
-
----
-
-## Cara Menjalankan Aplikasi
-untuk simulasi awal saya menggunakan laragon sebagai Localhost
-### Menggunakan LARAGON (Localhost)
-1. Buka Laragon
-2. Kilk Start all 
-3. klik kanan pada laragon pilih www/folder yang menyimpan kode responsi/klik folder tersebut hingga akhirnya berpindah ke laman web
-
-![2025-11-29 12-53-32 (2)](https://github.com/user-attachments/assets/e6a48734-d905-4d06-94ce-1cc0fe35b368)
+1.  Pastikan folder project ini berada di dalam direktori "park" Valet Anda (biasanya di `~/Sites` atau `~/code`).
+2.  Buka **Terminal**.
+3.  Masuk ke direktori project:
+    ```bash
+    cd nama-folder-project
+    ```
+4.  Jalankan perintah link (opsional, untuk memastikan domain aktif):
+    ```bash
+    valet link
+    ```
+5.  Buka browser dan akses alamat (sesuai nama folder):
+    ```
+    [http://nama-folder-project.test](http://nama-folder-project.test)
+    ```
