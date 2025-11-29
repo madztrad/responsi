@@ -39,3 +39,5 @@ Karena menggunakan **Laravel Valet**, berikut langkah-langkahnya:
     ```
 
     live preview bisa dilihat di https://responsi.athafa.my.id/
+    ![2025-11-29 12-53-32 (2)]([https://github.com/user-attachments/assets/e6a48734-d905-4d06-94ce-1cc0fe35b368](https://github.com/madztrad/responsi/blob/main/2025-11-29%2013-40-02.gif))
+    
