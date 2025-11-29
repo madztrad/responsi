@@ -23,7 +23,7 @@ Simulasi web ini menggunakan **PHP Native** dengan konsep **OOP** (Abstraction, 
 
 Karena menggunakan **Laravel Valet**, berikut langkah-langkahnya:
 ![Image](https://github.com/user-attachments/assets/8740db78-2657-4a21-81df-902487dfa573)
-
+![2025-11-29 15-35-49](https://github.com/user-attachments/assets/d8cbfe2d-afc5-4c69-91f9-556bd56c4cd7)
 1.  Pastikan folder project ini berada di dalam direktori "park" Valet Anda (biasanya di `~/Sites` atau `~/code`).
 2.  Buka **Terminal**.
 3.  Masuk ke direktori project:
@@ -38,7 +38,7 @@ Karena menggunakan **Laravel Valet**, berikut langkah-langkahnya:
     ```
     [http://nama-folder-project.test](http://nama-folder-project.test)
     ```
-     ![2025-11-29 15-35-49](https://github.com/user-attachments/assets/d8cbfe2d-afc5-4c69-91f9-556bd56c4cd7)
+     
     live preview bisa dilihat di https://responsi.athafa.my.id/
    
 
